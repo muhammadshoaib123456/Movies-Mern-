@@ -85,3 +85,15 @@ button {
   border: 1px solid black;
   cursor: pointer;
 }
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+  .card {
+    width: 96%; /* Cards take up almost full width on mobile */
+    margin: 2%; /* Keep some margin */
+  }
+
+  .card_img {
+    height: auto; /* Adjust image height automatically */
+  }
+}
